@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Task Archived 1`] = `
+<storybook-wrapper>
+  <app-task
+    ng-reflect-task="[object Object]"
+  >
+    <div
+      class="list-item"
+    >
+      <input
+        readonly="true"
+        type="text"
+      />
+    </div>
+  </app-task>
+</storybook-wrapper>
+`;
+
+exports[`Storyshots Task Default 1`] = `
+<storybook-wrapper>
+  <app-task
+    ng-reflect-task="[object Object]"
+  >
+    <div
+      class="list-item"
+    >
+      <input
+        readonly="true"
+        type="text"
+      />
+    </div>
+  </app-task>
+</storybook-wrapper>
+`;
+
+exports[`Storyshots Task Pinned 1`] = `
+<storybook-wrapper>
+  <app-task
+    ng-reflect-task="[object Object]"
+  >
+    <div
+      class="list-item"
+    >
+      <input
+        readonly="true"
+        type="text"
+      />
+    </div>
+  </app-task>
+</storybook-wrapper>
+`;
