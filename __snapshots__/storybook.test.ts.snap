@@ -1,62 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Task Archived 1`] = `
-<storybook-wrapper>
-  <app-task
-    ng-reflect-task="[object Object]"
-  >
-    <div
-      class="list-item"
-    >
-      <input
-        readonly="true"
-        type="text"
-      />
-    </div>
-  </app-task>
-</storybook-wrapper>
-`;
-
-exports[`Storyshots Task Default 1`] = `
-<storybook-wrapper>
-  <app-task
-    ng-reflect-task="[object Object]"
-  >
-    <div
-      class="list-item"
-    >
-      <input
-        readonly="true"
-        type="text"
-      />
-    </div>
-  </app-task>
-</storybook-wrapper>
-`;
-
-exports[`Storyshots Task Pinned 1`] = `
-<storybook-wrapper>
-  <app-task
-    ng-reflect-task="[object Object]"
-  >
-    <div
-      class="list-item"
-    >
-      <input
-        readonly="true"
-        type="text"
-      />
-    </div>
-  </app-task>
-</storybook-wrapper>
-`;
-
-exports[`Storyshots TaskList Default 1`] = `
+exports[`Storyshots PureTaskListComponent Default 1`] = `
 <storybook-wrapper>
   <div
     style="margin: 3em"
   >
-    <app-task-list
+    <pure-app-task-list
       ng-reflect-tasks="[object Object],[object Object"
     >
       <div
@@ -138,17 +87,17 @@ exports[`Storyshots TaskList Default 1`] = `
         
         
       </div>
-    </app-task-list>
+    </pure-app-task-list>
   </div>
 </storybook-wrapper>
 `;
 
-exports[`Storyshots TaskList Empty 1`] = `
+exports[`Storyshots PureTaskListComponent Empty 1`] = `
 <storybook-wrapper>
   <div
     style="margin: 3em"
   >
-    <app-task-list
+    <pure-app-task-list
       ng-reflect-loading="false"
       ng-reflect-tasks=""
     >
@@ -176,17 +125,17 @@ exports[`Storyshots TaskList Empty 1`] = `
         </div>
         
       </div>
-    </app-task-list>
+    </pure-app-task-list>
   </div>
 </storybook-wrapper>
 `;
 
-exports[`Storyshots TaskList Loading 1`] = `
+exports[`Storyshots PureTaskListComponent Loading 1`] = `
 <storybook-wrapper>
   <div
     style="margin: 3em"
   >
-    <app-task-list
+    <pure-app-task-list
       ng-reflect-loading="true"
       ng-reflect-tasks=""
     >
@@ -320,17 +269,17 @@ exports[`Storyshots TaskList Loading 1`] = `
           </div>
         </div>
       </div>
-    </app-task-list>
+    </pure-app-task-list>
   </div>
 </storybook-wrapper>
 `;
 
-exports[`Storyshots TaskList With Pinned Tasks 1`] = `
+exports[`Storyshots PureTaskListComponent With Pinned Tasks 1`] = `
 <storybook-wrapper>
   <div
     style="margin: 3em"
   >
-    <app-task-list
+    <pure-app-task-list
       ng-reflect-tasks="[object Object],[object Object"
     >
       <div
@@ -412,7 +361,58 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         
         
       </div>
-    </app-task-list>
+    </pure-app-task-list>
   </div>
+</storybook-wrapper>
+`;
+
+exports[`Storyshots Task Archived 1`] = `
+<storybook-wrapper>
+  <app-task
+    ng-reflect-task="[object Object]"
+  >
+    <div
+      class="list-item"
+    >
+      <input
+        readonly="true"
+        type="text"
+      />
+    </div>
+  </app-task>
+</storybook-wrapper>
+`;
+
+exports[`Storyshots Task Default 1`] = `
+<storybook-wrapper>
+  <app-task
+    ng-reflect-task="[object Object]"
+  >
+    <div
+      class="list-item"
+    >
+      <input
+        readonly="true"
+        type="text"
+      />
+    </div>
+  </app-task>
+</storybook-wrapper>
+`;
+
+exports[`Storyshots Task Pinned 1`] = `
+<storybook-wrapper>
+  <app-task
+    ng-reflect-task="[object Object]"
+  >
+    <div
+      class="list-item"
+    >
+      <input
+        readonly="true"
+        type="text"
+      />
+    </div>
+  </app-task>
 </storybook-wrapper>
 `;
