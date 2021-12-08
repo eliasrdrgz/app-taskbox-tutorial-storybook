@@ -7,11 +7,11 @@ import { Observable } from 'rxjs';
 @Component({
   selector: 'app-task-list',
   template: `
-    <app-pure-task-list
+    <pure-app-task-list
       [tasks]="tasks$ | async"
       (onArchiveTask)="archiveTask($event)"
       (onPinTask)="pinTask($event)"
-    ></app-pure-task-list>
+    ></pure-app-task-list>
   `,
 })
 export class TaskListComponent {
